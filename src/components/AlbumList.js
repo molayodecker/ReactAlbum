@@ -21,7 +21,7 @@ renderAlbum() {
 	return this.state.albums.map(album => <AlbumDetail key={album.title} album={album} />);
 }
 
-render() {
+render() { 
     console.log(this.state);	
 	return (
          <View>
